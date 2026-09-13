@@ -1,4 +1,129 @@
-<html>
-	<head></head>
-	<body>09/13 init</body>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>漸明諮商所</title>
+  <meta name="description" content="漸明諮商所 — 陪伴你,一步一步,漸漸看見光。" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a href="#home" class="logo">漸明</a>
+      <button class="nav-toggle" aria-label="開啟選單" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu">
+        <a href="#home">首頁</a>
+        <a href="#about">關於我們</a>
+        <a href="#services">服務項目</a>
+        <a href="#team">諮商師團隊</a>
+        <a href="#contact">聯絡我們</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h1>漸漸地,你會看見自己的光</h1>
+        <p class="subtitle">漸明諮商所,陪你走過情緒的幽谷,找回內在的力量。</p>
+        <a href="#contact" class="btn btn-primary">預約諮詢</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>關於我們</h2>
+        <p>
+          漸明諮商所相信,改變從來不是一蹴可幾,而是在安全、信任的關係中,一點一滴慢慢發生。
+          我們提供專業、溫暖且保密的諮商服務,陪伴每一位來談者面對生命中的困境,
+          找到屬於自己的步調與方向。
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <h2>服務項目</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>個別諮商</h3>
+            <p>一對一深度晤談,聚焦於情緒困擾、人際關係、自我探索等議題。</p>
+          </article>
+          <article class="card">
+            <h3>伴侶諮商</h3>
+            <p>協助伴侶重建溝通與信任,共同面對關係中的挑戰。</p>
+          </article>
+          <article class="card">
+            <h3>家庭諮商</h3>
+            <p>從系統的角度理解家庭互動,修復並強化家庭關係。</p>
+          </article>
+          <article class="card">
+            <h3>心理衛教講座</h3>
+            <p>提供企業、學校及社區團體心理健康相關的教育訓練與講座。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section">
+      <div class="container">
+        <h2>諮商師團隊</h2>
+        <div class="card-grid">
+          <article class="card team-card">
+            <div class="avatar" aria-hidden="true"></div>
+            <h3>諮商心理師 A</h3>
+            <p>專長:成人焦慮與憂鬱、壓力調適</p>
+          </article>
+          <article class="card team-card">
+            <div class="avatar" aria-hidden="true"></div>
+            <h3>諮商心理師 B</h3>
+            <p>專長:伴侶關係、親密關係議題</p>
+          </article>
+          <article class="card team-card">
+            <div class="avatar" aria-hidden="true"></div>
+            <h3>諮商心理師 C</h3>
+            <p>專長:兒童青少年、親子教養</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>聯絡我們</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <p><strong>地址:</strong>請於此填入實際地址</p>
+            <p><strong>電話:</strong>請於此填入聯絡電話</p>
+            <p><strong>Email:</strong>請於此填入聯絡信箱</p>
+            <p><strong>營業時間:</strong>週一至週五 09:00–18:00</p>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <label for="name">姓名</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">訊息內容</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="btn btn-primary">送出</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> 漸明諮商所. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
 </html>
