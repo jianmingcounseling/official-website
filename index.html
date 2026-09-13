@@ -10,109 +10,53 @@
 <body>
   <header class="site-header">
     <div class="container nav-bar">
-      <a href="#home" class="logo">漸明</a>
+      <a href="index.html" class="logo">漸明</a>
       <button class="nav-toggle" aria-label="開啟選單" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <nav class="nav-menu">
-        <a href="#home">首頁</a>
-        <a href="#about">關於我們</a>
-        <a href="#services">服務項目</a>
-        <a href="#team">諮商師團隊</a>
-        <a href="#contact">聯絡我們</a>
+        <a href="index.html" class="active">首頁</a>
+        <a href="about.html">認識我們</a>
+        <a href="explore.html">探索理解</a>
+        <a href="connect.html">參與連結</a>
+        <a href="services.html">心理服務</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section id="home" class="hero">
+    <section class="hero">
       <div class="container">
         <h1>漸漸地,你會看見自己的光</h1>
         <p class="subtitle">許明輝先生陪你走過情緒的幽谷,找回內在的力量。</p>
-        <a href="#contact" class="btn btn-primary">預約諮詢</a>
+        <a href="services.html#booking" class="btn btn-primary">預約諮詢</a>
       </div>
     </section>
 
-    <section id="about" class="section">
+    <section class="section">
       <div class="container">
-        <h2>關於我們</h2>
+        <h2>從認識漸明,到走進心理服務</h2>
         <p>
-          漸明諮商所相信,改變從來不是一蹴可幾,而是在安全、信任的關係中,一點一滴慢慢發生。
-          我們提供專業、溫暖且保密的諮商服務,陪伴每一位來談者面對生命中的困境,
-          找到屬於自己的步調與方向。
+          你可以依自己的步調,自由地從任何一個入口開始 —
+          認識這個地方、閱讀一些想法、參與一場活動,或是直接尋求協助。
         </p>
-      </div>
-    </section>
-
-    <section id="services" class="section section-alt">
-      <div class="container">
-        <h2>服務項目</h2>
-        <div class="card-grid">
-          <article class="card">
-            <h3>個別諮商</h3>
-            <p>一對一深度晤談,聚焦於情緒困擾、人際關係、自我探索等議題。</p>
-          </article>
-          <article class="card">
-            <h3>伴侶諮商</h3>
-            <p>協助伴侶重建溝通與信任,共同面對關係中的挑戰。</p>
-          </article>
-          <article class="card">
-            <h3>家庭諮商</h3>
-            <p>從系統的角度理解家庭互動,修復並強化家庭關係。</p>
-          </article>
-          <article class="card">
-            <h3>心理衛教講座</h3>
-            <p>提供企業、學校及社區團體心理健康相關的教育訓練與講座。</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="team" class="section">
-      <div class="container">
-        <h2>諮商師團隊</h2>
-        <div class="card-grid">
-          <article class="card team-card">
-            <div class="avatar" aria-hidden="true"></div>
-            <h3>諮商心理師 A</h3>
-            <p>專長:成人焦慮與憂鬱、壓力調適</p>
-          </article>
-          <article class="card team-card">
-            <div class="avatar" aria-hidden="true"></div>
-            <h3>諮商心理師 B</h3>
-            <p>專長:伴侶關係、親密關係議題</p>
-          </article>
-          <article class="card team-card">
-            <div class="avatar" aria-hidden="true"></div>
-            <h3>諮商心理師 C</h3>
-            <p>專長:兒童青少年、親子教養</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section section-alt">
-      <div class="container">
-        <h2>聯絡我們</h2>
-        <div class="contact-grid">
-          <div class="contact-info">
-            <p><strong>地址:</strong>請於此填入實際地址</p>
-            <p><strong>電話:</strong>請於此填入聯絡電話</p>
-            <p><strong>Email:</strong>請於此填入聯絡信箱</p>
-            <p><strong>營業時間:</strong>週一至週五 09:00–18:00</p>
-          </div>
-          <form class="contact-form" action="#" method="post">
-            <label for="name">姓名</label>
-            <input type="text" id="name" name="name" required />
-
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="message">訊息內容</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit" class="btn btn-primary">送出</button>
-          </form>
+        <div class="card-grid entry-grid">
+          <a class="card entry-card" href="about.html">
+            <h3>認識我們</h3>
+            <p>品牌理念、心理師介紹、空間與記事,建立對漸明的第一印象。</p>
+          </a>
+          <a class="card entry-card" href="explore.html">
+            <h3>探索理解</h3>
+            <p>心理師觀點、常見心理問題 Q&amp;A、Podcast,以心理學理解生活與關係。</p>
+          </a>
+          <a class="card entry-card" href="connect.html">
+            <h3>參與連結</h3>
+            <p>活動日曆、本月活動、活動側記與異業合作,實體與網站的交會處。</p>
+          </a>
+          <a class="card entry-card" href="services.html">
+            <h3>心理服務</h3>
+            <p>我需要諮商嗎、如何開始、諮商流程與預約方式,協助你完成預約。</p>
+          </a>
         </div>
       </div>
     </section>
