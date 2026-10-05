@@ -396,6 +396,24 @@ a {
   cursor: pointer;
 }
 
+.contact-form-link {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  text-align: left;
+}
+
+.contact-form-link p {
+  text-align: left;
+  margin: 0 0 1rem;
+}
+
+.contact-form-link .note {
+  text-align: left;
+  margin: 1rem 0 0;
+}
+
 /* Footer */
 .site-footer {
   padding: 2rem 0;
