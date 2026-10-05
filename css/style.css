@@ -67,10 +67,12 @@ a {
 
 .logo {
   font-family: "Noto Serif TC", "PingFang TC", "Microsoft JhengHei", serif;
-  font-size: 1.4rem;
+  font-size: 1.15rem;
   font-weight: 700;
   text-decoration: none;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .nav-menu {
