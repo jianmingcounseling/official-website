@@ -420,7 +420,7 @@ a {
   margin: 0 0 1.25rem;
 }
 
-.access-address {
+p.access-address {
   text-align: left;
   color: var(--color-text);
   margin: 0 0 1.25rem;
