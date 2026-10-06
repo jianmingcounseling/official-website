@@ -398,6 +398,34 @@ a {
   margin-top: 1rem;
 }
 
+/* Visit note (map section) */
+.visit-note {
+  max-width: 480px;
+  margin: 2rem auto 0;
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem 2rem;
+  text-align: left;
+}
+
+.visit-note-title {
+  font-weight: 600;
+  color: var(--color-primary-dark);
+  margin: 0 0 0.5rem;
+}
+
+.visit-note ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+.visit-note li {
+  margin-bottom: 0.3rem;
+}
+
 /* Access / directions */
 .lang-block {
   max-width: 960px;
