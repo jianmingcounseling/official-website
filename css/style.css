@@ -398,6 +398,26 @@ a {
   margin-top: 1rem;
 }
 
+/* Closing navigation links (about page) */
+.entry-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem 2.5rem;
+  margin-top: 2rem;
+}
+
+.entry-links a {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.entry-links a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 /* Visit note (map section) */
 .visit-note {
   max-width: 480px;
