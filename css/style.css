@@ -434,7 +434,8 @@ a {
 }
 
 /* 認識漸明頁:每區塊開場句改為大號引言,拉開與一般標題的視覺差異 */
-.about-page .section h2 {
+.about-page .section h2,
+.homepage .section h2 {
   font-size: 2.1rem;
   font-weight: 600;
   color: var(--color-primary-dark);
@@ -456,7 +457,8 @@ a {
 }
 
 @media (max-width: 768px) {
-  .about-page .section h2 {
+  .about-page .section h2,
+  .homepage .section h2 {
     font-size: 1.6rem;
   }
 
