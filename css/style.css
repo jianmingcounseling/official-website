@@ -439,6 +439,28 @@ a {
   }
 }
 
+/* 認識漸明頁:空間照片區塊 */
+.photo-section {
+  padding: 2rem 0;
+}
+
+.space-photo {
+  display: block;
+  width: 100%;
+  max-width: 880px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: var(--radius);
+  box-shadow: 0 12px 32px rgba(47, 42, 38, 0.12);
+}
+
+.about-page .section p.photo-caption {
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 1rem 0 0;
+}
+
 /* Closing navigation links (about page) */
 .entry-links {
   display: flex;
