@@ -153,8 +153,7 @@ a {
   margin-bottom: 0;
 }
 
-/* 首頁:文案段落靠左對齊(卡片內文字不受影響) */
-.homepage .hero-intro p,
+/* 首頁:文案段落靠左對齊(開場引言維持置中,卡片內文字不受影響) */
 .homepage .container > p {
   text-align: left;
 }
