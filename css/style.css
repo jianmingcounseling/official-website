@@ -514,18 +514,29 @@ a {
 /* 首頁:漸明空間照片 */
 .space-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.25rem;
-  max-width: 960px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 600px;
   margin: 2rem auto 0;
 }
 
 .space-gallery img {
   width: 100%;
-  height: 220px;
+  height: 130px;
   object-fit: cover;
   border-radius: var(--radius);
   box-shadow: 0 8px 20px rgba(47, 42, 38, 0.1);
+}
+
+@media (max-width: 640px) {
+  .space-gallery {
+    grid-template-columns: 1fr;
+    max-width: 280px;
+  }
+
+  .space-gallery img {
+    height: 180px;
+  }
 }
 
 /* Visit note (map section) */
