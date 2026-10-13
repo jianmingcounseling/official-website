@@ -477,7 +477,7 @@ a {
 .space-photo {
   display: block;
   width: 100%;
-  max-width: 880px;
+  max-width: 480px;
   height: auto;
   margin: 0 auto;
   border-radius: var(--radius);
