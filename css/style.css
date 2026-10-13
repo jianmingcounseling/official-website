@@ -153,6 +153,12 @@ a {
   margin-bottom: 0;
 }
 
+/* 首頁:文案段落靠左對齊(卡片內文字不受影響) */
+.homepage .hero-intro p,
+.homepage .container > p {
+  text-align: left;
+}
+
 /* Page hero (sub-pages) */
 .page-hero {
   padding: 6rem 0 3rem;
