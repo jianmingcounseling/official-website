@@ -627,6 +627,22 @@ a {
   text-align: left;
 }
 
+.services-page .container > p.back-to-overview {
+  text-align: center;
+  margin: 2rem 0 0;
+}
+
+.back-to-overview a {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.back-to-overview a:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
 /* Visit note (map section) */
 .visit-note {
   max-width: 480px;
