@@ -555,6 +555,7 @@ a {
 .section p.need-list-intro {
   font-weight: 600;
   color: var(--color-text);
+  margin-top: 1.75rem;
   margin-bottom: 0.75rem;
 }
 
