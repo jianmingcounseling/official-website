@@ -334,6 +334,7 @@ a {
   width: 96px;
   height: 96px;
   object-fit: cover;
+  object-position: center 15%;
   border-radius: 50%;
   margin: 0 auto 1rem;
 }
@@ -693,6 +694,7 @@ a {
   width: 160px;
   height: 160px;
   object-fit: cover;
+  object-position: center 15%;
   border-radius: 50%;
   margin: 0 auto 1.5rem;
   box-shadow: 0 12px 32px rgba(47, 42, 38, 0.15);
