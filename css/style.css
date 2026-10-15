@@ -598,6 +598,11 @@ a {
   margin-left: 0.6rem;
 }
 
+/* 漸明服務頁:文案段落靠左對齊(開場標語維持置中) */
+.services-page .container > p:not(.service-sub) {
+  text-align: left;
+}
+
 /* Visit note (map section) */
 .visit-note {
   max-width: 480px;
