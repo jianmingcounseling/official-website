@@ -587,6 +587,27 @@ a {
   margin: 0;
 }
 
+.service-block {
+  max-width: 820px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 3rem 2.5rem;
+  box-shadow: 0 8px 24px rgba(47, 42, 38, 0.06);
+}
+
+.service-block-planned {
+  background: var(--color-bg-alt);
+  border-style: dashed;
+}
+
+@media (max-width: 640px) {
+  .service-block {
+    padding: 2rem 1.25rem;
+  }
+}
+
 .badge-planned {
   display: inline-block;
   vertical-align: middle;
