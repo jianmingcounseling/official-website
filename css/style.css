@@ -323,6 +323,56 @@ a {
   border: 1px solid var(--color-border);
 }
 
+/* 漸明團隊:團隊成員卡片 */
+.team-member-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-member-photo {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+}
+
+.team-member-title {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+}
+
+.team-member-specialty {
+  display: inline-block;
+  color: var(--color-primary-dark);
+  background: var(--color-bg-alt);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.2rem 0.75rem;
+  margin: 0 0 0.75rem;
+}
+
+.team-member-fee {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0 0 1.25rem;
+}
+
+.team-member-card .btn {
+  margin-top: auto;
+}
+
+.team-member-placeholder {
+  border-style: dashed;
+}
+
+.team-member-placeholder .note {
+  margin-top: 0.5rem;
+}
+
 .note {
   text-align: center;
   color: var(--color-muted);
@@ -436,7 +486,8 @@ a {
 /* 認識漸明頁:每區塊開場句改為大號引言,拉開與一般標題的視覺差異 */
 .about-page .section h2,
 .homepage .section h2,
-.services-page .section h2 {
+.services-page .section h2,
+.bio-page .section h2 {
   font-size: 2.1rem;
   font-weight: 600;
   color: var(--color-primary-dark);
@@ -460,7 +511,8 @@ a {
 @media (max-width: 768px) {
   .about-page .section h2,
   .homepage .section h2,
-  .services-page .section h2 {
+  .services-page .section h2,
+  .bio-page .section h2 {
     font-size: 1.6rem;
   }
 
@@ -625,6 +677,41 @@ a {
 /* 漸明服務頁:文案段落靠左對齊(開場標語維持置中) */
 .services-page .container > p:not(.service-sub) {
   text-align: left;
+}
+
+.bio-page .container > p {
+  text-align: left;
+}
+
+.bio-page .page-hero .container,
+.bio-page .page-hero p {
+  text-align: center;
+}
+
+.bio-photo {
+  display: block;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 12px 32px rgba(47, 42, 38, 0.15);
+}
+
+.bio-title {
+  color: var(--color-muted);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.bio-page h3 {
+  font-size: 1.1rem;
+  color: var(--color-primary-dark);
+  margin: 2rem 0 0.75rem;
+}
+
+.bio-page h3:first-of-type {
+  margin-top: 0;
 }
 
 .services-page .container > p.back-to-overview {
