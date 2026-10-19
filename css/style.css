@@ -579,6 +579,15 @@ a {
   margin: 0 auto;
 }
 
+.photo-placeholder-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 20px rgba(47, 42, 38, 0.1);
+}
+
 /* Closing navigation links (about page) */
 .entry-links {
   display: flex;
