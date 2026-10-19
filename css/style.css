@@ -548,17 +548,6 @@ a {
   margin: 1rem 0 0;
 }
 
-/* 前往漸明頁:仁愛路行道樹橫幅照片 */
-.wide-photo {
-  display: block;
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  margin: 0 auto;
-  border-radius: var(--radius);
-  box-shadow: 0 12px 32px rgba(47, 42, 38, 0.12);
-}
-
 /* Closing navigation links (about page) */
 .entry-links {
   display: flex;
