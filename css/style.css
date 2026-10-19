@@ -560,6 +560,17 @@ a {
   margin: 0 auto 1.5rem;
 }
 
+/* 6張照片固定排成上排3張、下排3張 */
+.photo-placeholder-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 640px) {
+  .photo-placeholder-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .photo-placeholder {
   aspect-ratio: 4 / 3;
   border: 1px dashed var(--color-border);
