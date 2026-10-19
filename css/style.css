@@ -548,6 +548,34 @@ a {
   margin: 1rem 0 0;
 }
 
+/* 漸明空間頁:照片待補佔位區塊 */
+.photo-placeholder-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  max-width: 900px;
+  margin: 0 auto 1.5rem;
+}
+
+.photo-placeholder {
+  aspect-ratio: 4 / 3;
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg-alt);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.photo-placeholder-single {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
 /* Closing navigation links (about page) */
 .entry-links {
   display: flex;
