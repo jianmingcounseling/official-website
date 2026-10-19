@@ -480,7 +480,8 @@ a {
 }
 
 /* 認識漸明頁:段落文字靠左對齊(試驗效果) */
-.about-page .section p {
+.about-page .section p,
+.space-page .section p {
   text-align: left;
 }
 
@@ -488,7 +489,8 @@ a {
 .about-page .section h2,
 .homepage .section h2,
 .services-page .section h2,
-.bio-page .section h2 {
+.bio-page .section h2,
+.space-page .section h2 {
   font-size: 2.1rem;
   font-weight: 600;
   color: var(--color-primary-dark);
@@ -513,7 +515,8 @@ a {
   .about-page .section h2,
   .homepage .section h2,
   .services-page .section h2,
-  .bio-page .section h2 {
+  .bio-page .section h2,
+  .space-page .section h2 {
     font-size: 1.6rem;
   }
 
