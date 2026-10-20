@@ -211,8 +211,9 @@ a {
   margin: 1rem auto 0;
 }
 
-/* 漸明團隊頁:預約提醒文字與按鈕間距縮小為約一行文字 */
+/* 漸明團隊頁:預約提醒文字置中，與按鈕間距縮小為約一行文字 */
 #undecided p.note {
+  text-align: center;
   margin-top: 1.5rem;
 }
 
@@ -337,7 +338,8 @@ a {
 }
 
 /* 漸明團隊:短版團隊介紹文字，排版比照認識漸明頁 */
-#team-intro h2 {
+#team-intro h2,
+#undecided h2 {
   font-size: 2.1rem;
   font-weight: 600;
   color: var(--color-primary-dark);
@@ -345,12 +347,14 @@ a {
   margin-bottom: 1.75rem;
 }
 
-#team-intro p {
+#team-intro p,
+#undecided p {
   text-align: left;
 }
 
 @media (max-width: 768px) {
-  #team-intro h2 {
+  #team-intro h2,
+  #undecided h2 {
     font-size: 1.6rem;
   }
 }
