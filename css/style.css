@@ -203,6 +203,13 @@ a {
   transform: translateY(-1px);
 }
 
+/* 認識漸明頁:結尾預約按鈕置中,不受段落靠左排版影響 */
+#together .btn {
+  display: block;
+  width: fit-content;
+  margin: 1rem auto 0;
+}
+
 /* Sections */
 .section {
   padding: 5rem 0;
