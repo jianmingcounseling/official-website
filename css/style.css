@@ -694,6 +694,11 @@ a {
   margin: 1rem auto 0;
 }
 
+#fees-booking p.note {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
 /* 漸明服務頁 */
 .section p.service-sub {
   text-align: center;
