@@ -375,10 +375,17 @@ a {
   margin: 0 0 0.75rem;
 }
 
+.team-member-audience,
+.team-member-focus {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0 0 0.4rem;
+}
+
 .team-member-fee {
   color: var(--color-muted);
   font-size: 0.85rem;
-  margin: 0 0 1.25rem;
+  margin: 0.75rem 0 1.25rem;
 }
 
 .team-member-card .btn {
