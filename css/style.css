@@ -666,6 +666,17 @@ a {
   }
 }
 
+/* 漸明服務頁:諮商費用與預約方式區塊 */
+#fees-booking p a {
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#fees-booking .btn {
+  margin-top: 1rem;
+}
+
 /* 漸明服務頁 */
 .section p.service-sub {
   text-align: center;
