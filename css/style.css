@@ -984,6 +984,15 @@ p.access-address {
   border-top: 1px solid var(--color-border);
 }
 
+.footer-contact {
+  margin: 0 0 0.5rem;
+}
+
+.footer-contact a {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav-toggle {
