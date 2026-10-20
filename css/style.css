@@ -211,6 +211,11 @@ a {
   margin: 1rem auto 0;
 }
 
+/* 漸明團隊頁:預約提醒文字與按鈕間距縮小為約一行文字 */
+#undecided p.note {
+  margin-top: 1.5rem;
+}
+
 /* Sections */
 .section {
   padding: 5rem 0;
