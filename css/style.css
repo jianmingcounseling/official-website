@@ -854,6 +854,11 @@ a {
   text-decoration: underline;
 }
 
+/* 前往漸明頁:地址與 Google 地圖按鈕間距為約一行文字 */
+#map .btn {
+  margin-top: 1.5rem;
+}
+
 /* Visit note (map section) */
 /* 前往漸明頁:入口動線照片與「第一次到漸明」卡片左右併呈 */
 .visit-note-row {
