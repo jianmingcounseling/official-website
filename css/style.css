@@ -872,6 +872,11 @@ a {
   margin-top: 1.5rem;
 }
 
+/* 首頁:結尾按鈕與前方文字間距為約一行文字 */
+#contact-cta .btn {
+  margin-top: 1.5rem;
+}
+
 /* 聯絡漸明頁:心理諮商預約區塊，按鈕置中並與提醒文字間距 */
 #appointment .btn {
   display: block;
