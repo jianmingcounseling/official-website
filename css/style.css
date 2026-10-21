@@ -1,5 +1,5 @@
 :root {
-  color-scheme: light;
+  color-scheme: light dark;
   --color-bg: #faf7f2;
   --color-bg-alt: #f0ebe1;
   --color-text: #2f2a26;
@@ -9,6 +9,20 @@
   --color-border: #e2d9cb;
   --max-width: 1080px;
   --radius: 10px;
+}
+
+/* 明確告知瀏覽器:本站的「深色模式」版本與淺色模式相同顏色，
+   避免手機瀏覽器自動套用反轉/變色濾鏡，導致選單圖示等元素變得難以辨識 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #faf7f2;
+    --color-bg-alt: #f0ebe1;
+    --color-text: #2f2a26;
+    --color-muted: #6b6058;
+    --color-primary: #a97c50;
+    --color-primary-dark: #8a6340;
+    --color-border: #e2d9cb;
+  }
 }
 
 * {
@@ -92,23 +106,20 @@ a {
   color: var(--color-primary);
 }
 
+/* 選單圖示改用內嵌 SVG 當背景圖，避免手機瀏覽器的強制深色模式
+   把它誤判成可反轉的色塊，導致在夜間模式下變暗、看不清楚 */
 .nav-toggle {
   display: none;
-  flex-direction: column;
-  justify-content: space-between;
   width: 26px;
   height: 20px;
-  background: none;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='20' viewBox='0 0 26 20'%3E%3Crect width='26' height='2' rx='1' fill='%232f2a26'/%3E%3Crect y='9' width='26' height='2' rx='1' fill='%232f2a26'/%3E%3Crect y='18' width='26' height='2' rx='1' fill='%232f2a26'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   border: none;
   cursor: pointer;
   padding: 0;
-}
-
-.nav-toggle span {
-  display: block;
-  height: 2px;
-  background: var(--color-text);
-  border-radius: 2px;
 }
 
 /* Hero */
