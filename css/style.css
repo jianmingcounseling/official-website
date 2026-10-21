@@ -907,6 +907,17 @@ a {
   margin: 1.5rem auto 0;
 }
 
+/* 心理師個人介紹頁:預約按鈕與提醒文字置中，按鈕與上方文字間距約一行文字 */
+#booking .btn {
+  display: block;
+  width: fit-content;
+  margin: 1.5rem auto 0;
+}
+
+#booking p.note {
+  text-align: center;
+}
+
 #appointment p.note {
   margin-top: 1.5rem;
 }
