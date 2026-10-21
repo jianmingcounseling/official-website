@@ -406,17 +406,6 @@ a {
   margin: 0 0 0.5rem;
 }
 
-.team-member-specialty {
-  display: inline-block;
-  color: var(--color-primary-dark);
-  background: var(--color-bg-alt);
-  border-radius: 999px;
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 0.2rem 0.75rem;
-  margin: 0 0 0.75rem;
-}
-
 .team-member-audience,
 .team-member-focus {
   color: var(--color-muted);
