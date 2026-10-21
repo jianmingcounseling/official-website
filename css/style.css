@@ -866,8 +866,10 @@ a {
 
 .visit-note-photo {
   display: block;
-  flex: 1 1 40%;
-  width: 100%;
+  flex: 0 0 240px;
+  width: 240px;
+  height: auto;
+  align-self: center;
   object-fit: cover;
   border-radius: var(--radius);
   box-shadow: 0 12px 32px rgba(47, 42, 38, 0.12);
@@ -885,7 +887,10 @@ a {
   }
 
   .visit-note-photo {
-    max-height: 240px;
+    flex-basis: auto;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
   }
 }
 
