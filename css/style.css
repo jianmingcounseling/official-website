@@ -38,7 +38,7 @@ body {
   font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
   color: var(--color-text);
   background: var(--color-bg);
-  line-height: 1.75;
+  line-height: 1.8;
 }
 
 .container {
@@ -254,11 +254,23 @@ a {
   background: var(--color-bg-alt);
 }
 
-.section p {
+/* 一般內文段落:段落間留白約 18px,僅套用在一般敘述性文字。
+   用 :where() 包住 class 條件，讓這條規則的權重接近零，
+   確保卡片、聯絡資訊、提醒文字等各自的間距設定一定優先生效，不會被蓋掉 */
+:where(.section) p {
   color: var(--color-muted);
   max-width: 720px;
-  margin: 0 auto;
+  margin: 0 auto 1.125rem;
   text-align: center;
+}
+
+:where(.section) p:last-child {
+  margin-bottom: 0;
+}
+
+/* 緊接在按鈕前的段落，間距交給按鈕自己的 margin-top 控制，避免兩者疊加 */
+:where(.section) p:has(+ .btn) {
+  margin-bottom: 0;
 }
 
 /* Cards */
@@ -372,6 +384,16 @@ a {
 
 #appointment p.note {
   text-align: center;
+}
+
+/* 聯絡漸明頁:聯絡資訊是緊湊的條列式資訊，間距依其功能獨立調整，不套用一般內文的段落留白 */
+#contact-info p {
+  margin-bottom: 0.5rem;
+}
+
+/* 緊湊的聯絡資訊行(電話、Email 等)，用於各頁面需要的地方，間距比一般內文緊湊 */
+.contact-line {
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 768px) {
