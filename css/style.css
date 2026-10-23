@@ -429,6 +429,7 @@ a {
 }
 
 .team-member-audience,
+.team-member-language,
 .team-member-focus {
   color: var(--color-muted);
   font-size: 0.85rem;
