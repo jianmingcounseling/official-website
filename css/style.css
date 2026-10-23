@@ -273,6 +273,11 @@ a {
   margin-bottom: 0;
 }
 
+/* 緊接在緊湊聯絡資訊行前的段落，間距改為跟聯絡資訊行一致，避免落差過大 */
+:where(.section) p:has(+ .contact-line) {
+  margin-bottom: 0.5rem;
+}
+
 /* Cards */
 .card-grid {
   display: grid;
