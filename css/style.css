@@ -872,10 +872,10 @@ a {
   margin-left: 0.6rem;
 }
 
-/* 標題下方獨立一行的標籤(而非緊貼標題文字)：與上方標題無間距，與下方文案留一行文字間距 */
+/* 標題下方獨立一行的標籤(而非緊貼標題文字)：與上方標題的間距比照含親職諮詢標籤與標題文字的間距(0.6rem)，與下方文案留一行文字間距 */
 .badge-below {
   display: inline-block;
-  margin: 0 0 1.3rem;
+  margin: 0.6rem 0 1.3rem;
 }
 
 h3:has(+ .badge-below) {
