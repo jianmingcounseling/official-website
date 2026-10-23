@@ -367,12 +367,13 @@ a {
   border: 1px solid var(--color-border);
 }
 
-/* 漸明團隊、聯絡漸明:文案排版比照認識漸明頁 */
+/* 漸明團隊、聯絡漸明、前往漸明:文案排版比照認識漸明頁 */
 #team-intro h2,
 #undecided h2,
 #intro h2,
 #appointment h2,
-#admin h2 {
+#admin h2,
+#map h2 {
   font-size: 2.1rem;
   font-weight: 600;
   color: var(--color-primary-dark);
@@ -398,7 +399,8 @@ a {
   #undecided h2,
   #intro h2,
   #appointment h2,
-  #admin h2 {
+  #admin h2,
+  #map h2 {
     font-size: 1.6rem;
   }
 }
