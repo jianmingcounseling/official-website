@@ -369,6 +369,7 @@ a {
 /* 漸明團隊、聯絡漸明:文案排版比照認識漸明頁 */
 #team-intro h2,
 #undecided h2,
+#intro h2,
 #appointment h2,
 #admin h2 {
   font-size: 2.1rem;
@@ -394,6 +395,7 @@ a {
 @media (max-width: 768px) {
   #team-intro h2,
   #undecided h2,
+  #intro h2,
   #appointment h2,
   #admin h2 {
     font-size: 1.6rem;
