@@ -455,6 +455,17 @@ a {
   text-align: left;
 }
 
+/* 這四項之間拉開一行文字的間距 */
+.team-member-card--xu-minghui .team-member-audience,
+.team-member-card--xu-minghui .team-member-language,
+.team-member-card--xu-minghui .team-member-focus {
+  margin-bottom: 1.3rem;
+}
+
+.team-member-card--xu-minghui .team-member-fee {
+  margin-top: 1.3rem;
+}
+
 .team-member-placeholder {
   border-style: dashed;
 }
