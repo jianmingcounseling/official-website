@@ -774,6 +774,12 @@ a {
   margin-bottom: 0.4rem;
 }
 
+/* 許明輝個人頁:列表原本置中縮排，導致大螢幕下與子標題、段落的左邊界不一致，改為靠左對齊 */
+.bio-page-xu-minghui .need-list {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .service-note {
   max-width: 640px;
   margin: 1.75rem auto 0;
