@@ -429,6 +429,7 @@ a {
 }
 
 .team-member-audience,
+.team-member-language,
 .team-member-focus {
   color: var(--color-muted);
   font-size: 0.85rem;
@@ -771,6 +772,16 @@ a {
 
 .need-list li {
   margin-bottom: 0.4rem;
+}
+
+/* 心理師個人頁:子標題與清單原本靠左貼齊容器邊緣，
+   但一般段落文字是置中的 720px 欄寬(見 :where(.section) p)，導致兩者左邊界對不齊。
+   這裡讓子標題與清單改用同樣的 720px 置中欄寬，使左邊界與段落文字切齊 */
+.bio-page .section h3,
+.bio-page .section .need-list {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .service-note {
