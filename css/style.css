@@ -364,7 +364,7 @@ a {
 /* 漸明團隊、聯絡漸明:文案排版比照認識漸明頁 */
 #team-intro h2,
 #undecided h2,
-#contact-info h2,
+#intro h2,
 #appointment h2,
 #admin h2 {
   font-size: 2.1rem;
@@ -376,19 +376,10 @@ a {
 
 #team-intro p,
 #undecided p,
-#contact-info p,
+#intro p,
 #appointment p,
 #admin p {
   text-align: left;
-}
-
-#appointment p.note {
-  text-align: center;
-}
-
-/* 聯絡漸明頁:聯絡資訊是緊湊的條列式資訊，間距依其功能獨立調整，不套用一般內文的段落留白 */
-#contact-info p {
-  margin-bottom: 0.5rem;
 }
 
 /* 緊湊的聯絡資訊行(電話、Email 等)，用於各頁面需要的地方，間距比一般內文緊湊 */
@@ -399,7 +390,7 @@ a {
 @media (max-width: 768px) {
   #team-intro h2,
   #undecided h2,
-  #contact-info h2,
+  #intro h2,
   #appointment h2,
   #admin h2 {
     font-size: 1.6rem;
@@ -916,10 +907,6 @@ a {
 
 #booking p.note {
   text-align: center;
-}
-
-#appointment p.note {
-  margin-top: 1.5rem;
 }
 
 /* Visit note (map section) */
