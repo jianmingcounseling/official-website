@@ -882,6 +882,11 @@ h3:has(+ .badge-below) {
   margin-bottom: 0;
 }
 
+/* 說明方框後緊接小標題時，拉開約兩行文字的間距 */
+.service-note + h3 {
+  margin-top: 2.6rem;
+}
+
 /* 連結文字改用標題色，大小、粗細等其他樣式不受影響 */
 .heading-color-link {
   color: var(--color-primary-dark);
