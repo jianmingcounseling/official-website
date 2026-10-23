@@ -903,6 +903,20 @@ a {
   margin-left: 0.5rem;
 }
 
+/* 中文姓名獨立成一行時使用(例如姓名下方另起一行標示英文姓名與學位) */
+.bio-name-en-line {
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--color-muted);
+  margin: 0 0 1.3rem;
+}
+
+/* 中文姓名與緊接在後的英文姓名行之間不留間距 */
+h1:has(+ .bio-name-en-line) {
+  margin-bottom: 0;
+}
+
 .bio-title {
   color: var(--color-muted);
   font-size: 1.05rem;
