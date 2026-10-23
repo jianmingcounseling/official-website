@@ -780,7 +780,9 @@ a {
 .bio-page-xu-minghui #target h3,
 .bio-page-xu-minghui #target .need-list,
 .bio-page-xu-minghui #credentials h3,
-.bio-page-xu-minghui #credentials .need-list {
+.bio-page-xu-minghui #credentials .need-list,
+.bio-page-xu-minghui #fees h3,
+.bio-page-xu-minghui #fees .need-list {
   max-width: 720px;
   margin-left: auto;
   margin-right: auto;
