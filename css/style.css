@@ -442,6 +442,40 @@ a {
   margin: 0.75rem 0 1.25rem;
 }
 
+/* 團隊總覽卡片:服務對象、服務語言、主要專長、費用改為靠左對齊，姓名與職稱維持置中 */
+.team-member-card .team-member-audience,
+.team-member-card .team-member-language,
+.team-member-card .team-member-focus,
+.team-member-card .team-member-fee {
+  align-self: stretch;
+  text-align: left;
+}
+
+/* 姓名與職稱之間不留間距 */
+.team-member-card h3 {
+  margin-bottom: 0;
+}
+
+/* 職稱與服務對象之間留一行文字的間距 */
+.team-member-card .team-member-title {
+  margin-bottom: 1.3rem;
+}
+
+/* 服務對象、服務語言、主要專長之後各留一行文字的間距;費用本身不額外加頂部間距，
+   避免與「主要專長」的下方間距疊加變成兩倍寬 */
+.team-member-card .team-member-audience,
+.team-member-card .team-member-language,
+.team-member-card .team-member-focus {
+  margin-bottom: 1.3rem;
+}
+
+.team-member-card .team-member-fee {
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+}
+
+/* 費用與下方按鈕之間至少留一行文字的間距(由費用的 margin-bottom 保障)，
+   按鈕本身仍用 margin-top: auto 撐到卡片底部，讓四張卡片的按鈕维持同一條底線對齊 */
 .team-member-card .btn {
   margin-top: auto;
 }
