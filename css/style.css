@@ -887,6 +887,12 @@ h3:has(+ .badge-below) {
   margin-top: 2.6rem;
 }
 
+/* 置中、顏色比照大標題，但字體大小與粗細維持不變 */
+.service-subheading-centered {
+  text-align: center;
+  color: var(--color-primary-dark);
+}
+
 /* 連結文字改用標題色，大小、粗細等其他樣式不受影響 */
 .heading-color-link {
   color: var(--color-primary-dark);
