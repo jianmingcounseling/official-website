@@ -455,7 +455,18 @@ a {
   text-align: left;
 }
 
-/* 這四項之間拉開一行文字的間距 */
+/* 姓名與職稱之間不留間距 */
+.team-member-card--xu-minghui h3 {
+  margin-bottom: 0;
+}
+
+/* 職稱與服務對象之間留一行文字的間距 */
+.team-member-card--xu-minghui .team-member-title {
+  margin-bottom: 1.3rem;
+}
+
+/* 服務對象、服務語言、主要專長之後各留一行文字的間距;費用本身不額外加頂部間距，
+   避免與「主要專長」的下方間距疊加變成兩倍寬 */
 .team-member-card--xu-minghui .team-member-audience,
 .team-member-card--xu-minghui .team-member-language,
 .team-member-card--xu-minghui .team-member-focus {
@@ -463,6 +474,11 @@ a {
 }
 
 .team-member-card--xu-minghui .team-member-fee {
+  margin-top: 0;
+}
+
+/* 費用與下方按鈕之間留一行文字的間距(取代原本依卡片高度自動撐開的做法) */
+.team-member-card--xu-minghui .btn {
   margin-top: 1.3rem;
 }
 
