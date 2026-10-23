@@ -909,7 +909,12 @@ a {
   font-size: 1.1rem;
   font-weight: 400;
   color: var(--color-muted);
-  margin: 0.25rem 0 0;
+  margin: 0 0 1.3rem;
+}
+
+/* 中文姓名與緊接在後的英文姓名行之間不留間距 */
+h1:has(+ .bio-name-en-line) {
+  margin-bottom: 0;
 }
 
 .bio-title {
