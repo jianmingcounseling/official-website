@@ -884,6 +884,13 @@ a {
   margin-left: 0.6rem;
 }
 
+/* 標題下方獨立一行的標籤(而非緊貼標題文字)，取消左邊界、改為上方留一點間距 */
+.badge-below {
+  display: inline-block;
+  margin-left: 0;
+  margin-top: 0.5rem;
+}
+
 /* 漸明服務頁:文案段落靠左對齊(開場標語維持置中) */
 .services-page .container > p:not(.service-sub) {
   text-align: left;
