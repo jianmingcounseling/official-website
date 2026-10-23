@@ -446,6 +446,15 @@ a {
   margin-top: auto;
 }
 
+/* 許明輝團隊總覽卡片:服務對象、服務語言、主要專長、費用改為靠左對齊，姓名與職稱維持置中 */
+.team-member-card--xu-minghui .team-member-audience,
+.team-member-card--xu-minghui .team-member-language,
+.team-member-card--xu-minghui .team-member-focus,
+.team-member-card--xu-minghui .team-member-fee {
+  align-self: stretch;
+  text-align: left;
+}
+
 .team-member-placeholder {
   border-style: dashed;
 }
