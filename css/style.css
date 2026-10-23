@@ -882,6 +882,11 @@ h3:has(+ .badge-below) {
   margin-bottom: 0;
 }
 
+/* 連結文字改用標題色，大小、粗細等其他樣式不受影響 */
+.heading-color-link {
+  color: var(--color-primary-dark);
+}
+
 /* 漸明服務頁:文案段落靠左對齊(開場標語維持置中) */
 .services-page .container > p:not(.service-sub) {
   text-align: left;
