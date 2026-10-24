@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jianmingcounseling.github.io/official-website/sitemap.xml
