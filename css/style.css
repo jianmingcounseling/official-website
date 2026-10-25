@@ -925,8 +925,8 @@ h3:has(+ .badge-below) {
 
 /* 個人自介頁大頭照改用 4:6 直式長方形(團隊總覽小卡仍維持圓形) */
 .bio-photo-rect {
-  width: 160px;
-  height: 240px;
+  width: 200px;
+  height: 300px;
   border-radius: var(--radius);
 }
 
