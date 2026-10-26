@@ -527,14 +527,10 @@ a {
 .card p.entry-card-fee {
   color: var(--color-primary-dark);
   font-size: 0.85rem;
-  margin: 0.2rem 0 1.3rem;
+  margin: 0 0 1.3rem;
 }
 
-.entry-card-fee--individual {
-  margin-top: 0;
-}
-
-.entry-card h3:has(+ .entry-card-fee--individual) {
+.entry-card h3:has(+ .entry-card-fee) {
   margin-bottom: 0;
 }
 
