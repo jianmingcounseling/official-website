@@ -892,8 +892,11 @@ h3:has(+ .badge-below) {
   color: var(--color-primary-dark);
 }
 
-/* 諮商費用及晤談時間:顏色比照大標題，但靠左對齊 */
+/* 諮商費用及晤談時間:靠左對齊，並與下方段落共用同一個置中欄寬，讓左邊界切齊 */
 #fees-booking h3.service-subheading-centered {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
 }
 
