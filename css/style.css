@@ -534,6 +534,10 @@ a {
   margin-top: 0;
 }
 
+.entry-card h3:has(+ .entry-card-fee--individual) {
+  margin-bottom: 0;
+}
+
 /* Timeline */
 .timeline {
   list-style: none;
