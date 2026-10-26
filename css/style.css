@@ -893,12 +893,6 @@ h3:has(+ .badge-below) {
   color: var(--color-primary-dark);
 }
 
-/* 字體縮小，顏色比照大標題 */
-.fees-subheading {
-  font-size: 1rem;
-  color: var(--color-primary-dark);
-}
-
 /* 連結文字改用標題色，大小、粗細等其他樣式不受影響 */
 .heading-color-link {
   color: var(--color-primary-dark);
