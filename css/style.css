@@ -524,7 +524,7 @@ a {
   color: var(--color-primary-dark);
 }
 
-.entry-card-fee {
+.card p.entry-card-fee {
   color: var(--color-primary-dark);
   font-size: 0.85rem;
   margin: 0.2rem 0 1.3rem;
