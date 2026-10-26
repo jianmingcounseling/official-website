@@ -524,6 +524,12 @@ a {
   color: var(--color-primary-dark);
 }
 
+.entry-card-fee {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0.5rem 0 0.75rem;
+}
+
 /* Timeline */
 .timeline {
   list-style: none;
