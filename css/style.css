@@ -530,6 +530,10 @@ a {
   margin: 0.2rem 0 1.3rem;
 }
 
+.entry-card-fee--individual {
+  margin-top: 0;
+}
+
 /* Timeline */
 .timeline {
   list-style: none;
