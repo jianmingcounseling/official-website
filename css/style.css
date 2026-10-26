@@ -525,9 +525,9 @@ a {
 }
 
 .entry-card-fee {
-  color: var(--color-muted);
+  color: var(--color-primary-dark);
   font-size: 0.85rem;
-  margin: 0.5rem 0 0.75rem;
+  margin: 0.2rem 0 1.3rem;
 }
 
 /* Timeline */
