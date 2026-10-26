@@ -428,6 +428,7 @@ a {
   margin: 0 0 0.5rem;
 }
 
+.team-member-services,
 .team-member-audience,
 .team-member-language,
 .team-member-focus {
@@ -436,7 +437,8 @@ a {
   margin: 0 0 0.4rem;
 }
 
-/* 團隊總覽卡片:服務對象、服務語言、主要專長改為靠左對齊，姓名與職稱維持置中 */
+/* 團隊總覽卡片:服務內容、服務對象、服務語言、主要專長改為靠左對齊，姓名與職稱維持置中 */
+.team-member-card .team-member-services,
 .team-member-card .team-member-audience,
 .team-member-card .team-member-language,
 .team-member-card .team-member-focus {
@@ -454,7 +456,8 @@ a {
   margin-bottom: 1.3rem;
 }
 
-/* 服務對象、服務語言、主要專長之後各留一行文字的間距，確保與下方按鈕至少保持一行距離 */
+/* 服務內容、服務對象、服務語言、主要專長之後各留一行文字的間距，確保與下方按鈕至少保持一行距離 */
+.team-member-card .team-member-services,
 .team-member-card .team-member-audience,
 .team-member-card .team-member-language,
 .team-member-card .team-member-focus {
