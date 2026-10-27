@@ -413,6 +413,13 @@ a {
   font-size: 1.1rem;
 }
 
+#org-team .org-member-title {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0 0 1.3rem;
+  text-align: center;
+}
+
 #org-team .org-member-role {
   color: var(--color-muted);
   font-size: 0.85rem;
