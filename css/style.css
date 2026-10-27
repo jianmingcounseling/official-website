@@ -371,6 +371,7 @@ a {
 /* 漸明團隊、聯絡漸明、前往漸明:文案排版比照認識漸明頁 */
 #team-intro h2,
 #undecided h2,
+#org-team h2,
 #intro h2,
 #appointment h2,
 #admin h2,
@@ -384,10 +385,46 @@ a {
 
 #team-intro p,
 #undecided p,
+#org-team p,
 #intro p,
 #appointment p,
 #admin p {
   text-align: left;
+}
+
+/* 漸明團隊頁:經營團隊精簡名錄，桌面版兩欄兩列，視覺份量小於心理師人物卡 */
+.org-team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.org-member-card {
+  padding: 1.5rem;
+}
+
+.org-member-title {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0 0 0.3rem;
+}
+
+.org-member-card h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.1rem;
+}
+
+.org-member-role {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .org-team-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* 緊湊的聯絡資訊行(電話、Email 等)，用於各頁面需要的地方，間距比一般內文緊湊 */
