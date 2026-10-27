@@ -395,7 +395,7 @@ a {
 /* 漸明團隊頁:經營團隊精簡名錄，桌面版兩欄兩列，視覺份量小於心理師人物卡 */
 .org-team-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1.25rem;
   margin-top: 1rem;
 }
