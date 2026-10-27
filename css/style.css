@@ -419,7 +419,7 @@ a {
 }
 
 #org-team .org-member-title {
-  color: var(--color-muted);
+  color: var(--color-primary-dark);
   font-size: 0.85rem;
   margin: 0 0 1.3rem;
   text-align: center;
