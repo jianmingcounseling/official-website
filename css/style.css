@@ -413,6 +413,11 @@ a {
   font-size: 1.1rem;
 }
 
+/* 姓名下方緊接職稱時，兩者間距縮小 */
+.org-member-card h3:has(+ .org-member-title) {
+  margin-bottom: 0.3rem;
+}
+
 #org-team .org-member-title {
   color: var(--color-muted);
   font-size: 0.85rem;
