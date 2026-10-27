@@ -371,6 +371,7 @@ a {
 /* 漸明團隊、聯絡漸明、前往漸明:文案排版比照認識漸明頁 */
 #team-intro h2,
 #undecided h2,
+#org-team h2,
 #intro h2,
 #appointment h2,
 #admin h2,
@@ -384,10 +385,57 @@ a {
 
 #team-intro p,
 #undecided p,
+#org-team p,
 #intro p,
 #appointment p,
 #admin p {
   text-align: left;
+}
+
+/* 漸明團隊頁:經營團隊精簡名錄，桌面版兩欄兩列，視覺份量小於心理師人物卡 */
+.org-team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.org-member-card {
+  width: 100%;
+  max-width: 260px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  box-sizing: border-box;
+}
+
+.org-member-card h3 {
+  margin: 0 0 1.3rem;
+  font-size: 1.25rem;
+}
+
+/* 姓名下方緊接職稱時，兩者間距縮小 */
+.org-member-card h3:has(+ .org-member-title) {
+  margin-bottom: 0.1rem;
+}
+
+#org-team .org-member-title {
+  color: var(--color-primary-dark);
+  font-size: 0.85rem;
+  margin: 0 0 1.3rem;
+  text-align: center;
+}
+
+#org-team .org-member-role {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .org-team-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* 緊湊的聯絡資訊行(電話、Email 等)，用於各頁面需要的地方，間距比一般內文緊湊 */
