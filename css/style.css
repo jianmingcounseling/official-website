@@ -404,29 +404,15 @@ a {
   padding: 1.5rem;
 }
 
-.org-member-title {
-  color: var(--color-muted);
-  font-size: 0.85rem;
-  margin: 0 0 0.3rem;
-}
-
 .org-member-card h3 {
-  margin: 0 0 0.3rem;
+  margin: 0 0 1.3rem;
   font-size: 1.1rem;
 }
 
-.org-member-role {
+#org-team .org-member-role {
   color: var(--color-muted);
   font-size: 0.85rem;
   margin: 0;
-}
-
-/* 姓名與職稱合併在同一行時，下方留一行文字的間距，角色說明置中 */
-.org-member-card--merged h3 {
-  margin-bottom: 1.3rem;
-}
-
-#org-team .org-member-role-centered {
   text-align: center;
 }
 
