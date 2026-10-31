@@ -1106,6 +1106,12 @@ h1:has(+ .bio-name-en-line) {
   margin: 0 0 0.3rem;
 }
 
+@media (max-width: 768px) {
+  .map-info-block {
+    padding-left: 0;
+  }
+}
+
 .map-info-block p:last-child {
   margin-bottom: 0;
 }
