@@ -681,7 +681,8 @@ a {
 }
 
 /* 認識漸明頁:調整各區塊留白節奏,首尾區塊較寬鬆,中段較緊湊 */
-.about-page .section-open {
+.about-page .section-open,
+.services-page .section-open {
   padding: 2rem 0 6rem;
 }
 
@@ -702,7 +703,8 @@ a {
     font-size: 1.6rem;
   }
 
-  .about-page .section-open {
+  .about-page .section-open,
+  .services-page .section-open {
     padding: 1.5rem 0 3.5rem;
   }
 
