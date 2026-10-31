@@ -95,8 +95,22 @@ a {
 
 .logo-icon {
   display: block;
-  height: 1.4em;
-  width: 1.4em;
+  height: 2.1em;
+  width: 2.1em;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.logo-text-en {
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  font-size: 0.6em;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--color-muted);
 }
 
 .nav-menu {
