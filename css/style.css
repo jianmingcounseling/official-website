@@ -716,6 +716,15 @@ a {
   padding: 2rem 0 0.5rem;
 }
 
+/* 認識漸明頁:標題與下方照片之間的間距縮小 */
+.about-page .page-hero {
+  padding-bottom: 1.5rem;
+}
+
+.about-page .photo-section {
+  padding-top: 1rem;
+}
+
 .space-photo {
   display: block;
   width: 100%;
