@@ -1091,9 +1091,22 @@ h1:has(+ .bio-name-en-line) {
   text-align: center;
 }
 
-/* 前往漸明頁面:單位名稱、立案字號靠左對齊，與地址共用同一個置中欄寬，使左邊界切齊；地址本身排版不變 */
-.map-info-left {
+/* 前往漸明頁面:單位名稱、立案字號、地址三行改為靠左對齊，整個區塊套用跟段落文字一樣的置中欄寬(720px)，
+   讓左邊界與標題等其他內容的視覺位置切齊，而不是貼齊頁面容器最左邊 */
+.map-info-block {
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
   text-align: left;
+}
+
+.map-info-block p {
+  text-align: left;
+  max-width: none;
+  margin: 0 0 0.3rem;
+}
+
+.map-info-block p:last-child {
+  margin-bottom: 0;
 }
 
 /* Visit note (map section) */
