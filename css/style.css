@@ -716,12 +716,22 @@ a {
   padding: 2rem 0 0.5rem;
 }
 
-/* 認識漸明頁:標題與下方照片之間的間距縮小 */
-.about-page .page-hero {
+/* 認識漸明、漸明服務、漸明團隊、漸明空間、聯絡漸明、前往漸明:標題與下方照片之間的間距縮小 */
+.about-page .page-hero,
+.services-page .page-hero,
+.team-page .page-hero,
+.space-page .page-hero,
+.contact-page .page-hero,
+.go-page .page-hero {
   padding-bottom: 1.5rem;
 }
 
-.about-page .photo-section {
+.about-page .photo-section,
+.services-page .photo-section,
+.team-page .photo-section,
+.space-page .photo-section,
+.contact-page .photo-section,
+.go-page .photo-section {
   padding-top: 1rem;
 }
 
