@@ -682,7 +682,11 @@ a {
 
 /* 認識漸明頁:調整各區塊留白節奏,首尾區塊較寬鬆,中段較緊湊 */
 .about-page .section-open,
-.services-page .section-open {
+.services-page .section-open,
+.team-page .section-open,
+.space-page .section-open,
+.contact-page .section-open,
+.go-page .section-open {
   padding: 2rem 0 6rem;
 }
 
@@ -704,7 +708,11 @@ a {
   }
 
   .about-page .section-open,
-  .services-page .section-open {
+  .services-page .section-open,
+  .team-page .section-open,
+  .space-page .section-open,
+  .contact-page .section-open,
+  .go-page .section-open {
     padding: 1.5rem 0 3.5rem;
   }
 
