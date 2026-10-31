@@ -1093,6 +1093,23 @@ h1:has(+ .bio-name-en-line) {
 
 /* Visit note (map section) */
 /* 前往漸明頁:入口動線照片與「第一次到漸明」卡片左右併呈 */
+/* 前往漸明頁面:單位名稱、立案字號、地址三行靠左對齊，整個區塊維持置中 */
+.map-address-block {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 1.5rem;
+}
+
+.map-address-block p {
+  text-align: left;
+  max-width: none;
+  margin: 0 0 0.3rem;
+}
+
+.map-address-block p:last-child {
+  margin-bottom: 0;
+}
+
 .visit-note-row {
   display: flex;
   align-items: stretch;
