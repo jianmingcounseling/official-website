@@ -1096,6 +1096,7 @@ h1:has(+ .bio-name-en-line) {
 .map-info-block {
   max-width: 720px;
   margin: 0 auto 1.5rem;
+  padding-left: 3rem;
   text-align: left;
 }
 
