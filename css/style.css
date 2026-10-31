@@ -81,6 +81,9 @@ a {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
   font-family: "Noto Serif TC", "PingFang TC", "Microsoft JhengHei", serif;
   font-size: 1.15rem;
   font-weight: 700;
@@ -88,6 +91,12 @@ a {
   letter-spacing: 0.02em;
   white-space: nowrap;
   flex-shrink: 0;
+}
+
+.logo-icon {
+  display: block;
+  height: 1.4em;
+  width: 1.4em;
 }
 
 .nav-menu {
