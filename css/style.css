@@ -1091,6 +1091,11 @@ h1:has(+ .bio-name-en-line) {
   text-align: center;
 }
 
+/* 前往漸明頁面:單位名稱、立案字號靠左對齊，與地址共用同一個置中欄寬，使左邊界切齊；地址本身排版不變 */
+.map-info-left {
+  text-align: left;
+}
+
 /* Visit note (map section) */
 /* 前往漸明頁:入口動線照片與「第一次到漸明」卡片左右併呈 */
 .visit-note-row {
