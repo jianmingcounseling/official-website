@@ -147,7 +147,7 @@ a {
 
 /* Hero */
 .hero {
-  padding: 7rem 0 5rem;
+  padding: 5rem 0 5rem;
   text-align: center;
   background: linear-gradient(180deg, var(--color-bg-alt), var(--color-bg));
 }
@@ -157,7 +157,7 @@ a {
   width: 280px;
   max-width: 65%;
   height: auto;
-  margin: 0 auto 2rem;
+  margin: 0 auto 4rem;
 }
 
 .hero h1 {
