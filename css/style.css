@@ -681,7 +681,12 @@ a {
 }
 
 /* 認識漸明頁:調整各區塊留白節奏,首尾區塊較寬鬆,中段較緊湊 */
-.about-page .section-open {
+.about-page .section-open,
+.services-page .section-open,
+.team-page .section-open,
+.space-page .section-open,
+.contact-page .section-open,
+.go-page .section-open {
   padding: 2rem 0 6rem;
 }
 
@@ -702,7 +707,12 @@ a {
     font-size: 1.6rem;
   }
 
-  .about-page .section-open {
+  .about-page .section-open,
+  .services-page .section-open,
+  .team-page .section-open,
+  .space-page .section-open,
+  .contact-page .section-open,
+  .go-page .section-open {
     padding: 1.5rem 0 3.5rem;
   }
 
@@ -714,6 +724,25 @@ a {
 /* 認識漸明頁:空間照片區塊 */
 .photo-section {
   padding: 2rem 0 0.5rem;
+}
+
+/* 認識漸明、漸明服務、漸明團隊、漸明空間、聯絡漸明、前往漸明:標題與下方照片之間的間距縮小 */
+.about-page .page-hero,
+.services-page .page-hero,
+.team-page .page-hero,
+.space-page .page-hero,
+.contact-page .page-hero,
+.go-page .page-hero {
+  padding-bottom: 1.5rem;
+}
+
+.about-page .photo-section,
+.services-page .photo-section,
+.team-page .photo-section,
+.space-page .photo-section,
+.contact-page .photo-section,
+.go-page .photo-section {
+  padding-top: 1rem;
 }
 
 .space-photo {
